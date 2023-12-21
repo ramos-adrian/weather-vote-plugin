@@ -1,0 +1,17 @@
+name: ClimaVotacion
+main: com.chasistorcido.climavote.ClimaVote
+version: 1.0.0
+api-version: 1.17
+description: Plugin que permite votar por el clima y cambiarlo aleatoriamente
+author: ChasisTorcido
+commands:
+  clima:
+    description: Muestra el clima actual
+    usage: /clima
+  votar:
+    description: Vota por el clima que prefieras
+    usage: /votar <lluvia/sol>
+permissions:
+  ClimaVotacion.reload:
+    description: Permite recargar la configuración del plugin
+    default: op
